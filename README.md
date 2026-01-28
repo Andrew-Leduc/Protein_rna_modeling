@@ -28,7 +28,10 @@ where `m` is mRNA count (NB distributed), `c` is a scaling factor, `ε` prevents
 
 ## Data Access
 
-Data is stored on Google Drive:
+Raw sequencing data is available on GEO:
+**[GSE244215](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244215)**
+
+Processed data for modeling is stored on Google Drive:
 **[Data Folder](https://drive.google.com/drive/folders/1gv9as_seGLJxYvc90Ogdz1t5bHj6IKIz?usp=sharing)**
 
 ### Recommended Google Drive Structure
