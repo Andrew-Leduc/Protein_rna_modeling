@@ -21,7 +21,7 @@ where `m` is mRNA count (NB distributed), `c` is a scaling factor, `ε` prevents
 ├── models/
 │   └── Model_V1.ipynb          # Main analysis notebook (Google Colab)
 ├── preprocessing/
-│   └── preproc_and_filter.R    # R preprocessing script (Seurat-based)
+│   └── preproc_and_filter.R    # R preprocessing script for protein and mRNA data
 ├── dat/                        # Local data directory (optional)
 └── requirements.txt            # Python dependencies
 ```
@@ -34,12 +34,14 @@ Raw sequencing data is available on GEO:
 Processed data for modeling is stored on Google Drive:
 **[Data Folder](https://drive.google.com/drive/folders/1gv9as_seGLJxYvc90Ogdz1t5bHj6IKIz?usp=sharing)**
 
-### Recommended Google Drive Structure
+### Google Drive Structure
+
+This data is all for 1 cell type, basal cells (see preproc_and_filter.R)
 
 ```
 Drive/
 └── Protein_RNA_Modeling/
-    ├── raw/           # Original, unmodified data
+    ├── raw/           # mRNA counts, Raw protein data, metadata for both
     ├── processed/     # Cleaned/filtered protein data for our modeling purposes
     ├── results/       # Model outputs and figures
     └── notebooks/     # Working copies of Colab notebooks
