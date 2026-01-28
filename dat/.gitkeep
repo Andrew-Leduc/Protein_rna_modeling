@@ -1,0 +1,12 @@
+# Data Directory
+
+This folder is for local data files.
+
+For Google Colab usage, data is accessed directly from Google Drive:
+https://drive.google.com/drive/folders/1gv9as_seGLJxYvc90Ogdz1t5bHj6IKIz
+
+Expected files:
+- sc_protein_relative.csv
+- sc_protein_absolute.csv
+- sc_protein_annotations.csv
+- sc_mRNA_annotations.csv

@@ -1,0 +1,40 @@
+# Data files
+dat/*.csv
+dat/*.rds
+dat/*.fasta
+dat/*.h5ad
+*.csv
+*.tsv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# R
+.Rhistory
+.Rdata
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.h5
+*.hdf5
+*.parquet
