@@ -19,6 +19,7 @@ where `m` is mRNA count (NB distributed), `c` is a scaling factor, `ε` prevents
 
 ```
 ├── models/
+│   ├── APPROACHES.md           # Modeling approaches and equations
 │   └── Model_V1.ipynb          # Main analysis notebook (Google Colab)
 ├── preprocessing/
 │   └── preproc_and_filter.R    # R preprocessing script for protein and mRNA data
